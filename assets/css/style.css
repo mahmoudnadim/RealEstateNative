@@ -1,0 +1,114 @@
+
+
+/*--------- Hero ---------*/
+.heroLeft {
+    width: 40%;
+    gap: 3rem;
+}
+.heroText_c{
+    gap: .51rem;
+}
+.heroRight {
+    width: 40%;
+}
+.heroTitle{
+    font-size: 3.5rem;
+}
+.heroText{
+    font-weight: 500;
+}
+.heroDesc{
+    color: #9b9b9b;
+}
+.heroBtn{
+    font-size: 1.2rem;
+}
+
+
+
+/*--------- WhyUs ---------*/
+.whyUs_c{
+    background: #000;
+}
+.whyUsList{
+    gap: 2rem;
+}
+.whyUsOptions{
+    font-size: 1.2rem;
+    border-bottom: 3px solid #9b9b9b;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+}
+.whyUsMain{
+    gap: 4rem;
+}
+.whyUsImg{
+    width: 50%;
+}
+.whyUsContent{
+    width: 40%;
+    gap: 2rem;
+}
+.whyUsContentTitle{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.whyUsContentBtn{
+    background: none;
+    border: 2px solid #fff;
+}
+
+
+
+/*--------- Our Experience ---------*/
+.ourExperience{
+    /* max-height: 75vh; */
+}
+.ourExperienceLeft{
+    background: #494949;
+    flex: 4;
+    gap: 2.5rem;
+    width: 25%;
+    height: 100%;
+    justify-content: center;
+}
+.ourExperienceRight{
+   flex: 1.5;
+   background: #d4a373;
+   writing-mode: sideways-lr;
+   padding: 2rem 1rem;
+   font-size: 1.8rem;
+   font-weight: 500;
+   text-align: center;
+   color: #333;
+
+}
+.ourExperienceLeft>p{
+    color: #a7a7a7;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.ourExperienceLeft fieldset legend{
+    padding-right: 1rem;
+    margin: 0;
+}
+.ourExperienceLeft fieldset{
+    width: fit-content;
+    border-left: 0;
+    border-bottom: 0;
+}
+.ourExperienceLeft fieldset p{
+    font-size: 3rem;
+    width: fit-content;
+    padding-right: 1.5rem;
+    font-weight: 500;
+}
+.oe-counts>p{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+}
+.oe-counts>p span{
+    font-size: 3rem;
+}

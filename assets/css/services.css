@@ -1,0 +1,109 @@
+
+
+
+/*--------- HERO ---------*/
+.pageHero{
+    position: relative;
+    background: linear-gradient(0deg, #00000060, #00000060), url("../images/pageHero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 8rem 5rem;
+    margin: 2rem 4rem;
+    border-radius: 2rem;
+    max-height: 35vh;
+    display: flex;
+    align-items: center;
+}
+.pageHeroTitle{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+}
+.pageHeroPath{
+    color: #333;
+    position: absolute;
+    bottom: 0;
+    padding: .5rem 2rem;
+    background: #f2f2f2;
+    border-radius: .2rem .2rem 0 0;
+    font-weight: 500;
+}
+.pageHeroPath span{
+    color: var(--gold);
+}
+
+
+/*--------- ASIDE ---------*/
+.mainAside{
+    background: #f0f0f0;
+    height: fit-content;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.asideTitle{
+    font-size: 1.4rem;
+    color: #333;
+    font-weight: 700;
+    padding-bottom: .2rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #a7a7a7;
+}
+.asideLinks{
+    gap: .5rem;
+}
+.asideLink{
+    background: #A77C4A;
+    padding: .3rem 1rem;
+    border-radius: .2rem;
+    color: #fff;
+    font-weight: 600;
+}
+.asideLinkSelect{
+    background: #D4AA79;
+}
+
+/*--------- MAIN ---------*/
+.servicesMain{
+    gap: 2rem;
+    padding: 0 4rem;
+    margin: 4rem 0;
+}
+.mainAside{
+    width: 20%;
+}
+.mainBoxes{
+    width: 80%;
+}
+.mainBoxes_c{
+    gap: 1.5rem;
+}
+
+
+
+/*--------- Responsive ---------*/
+@media (max-width:768px){
+    .pageHero{
+        margin: 4rem 2rem;
+    }
+    .servicesMain{
+        padding: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainAside{
+        width: 100%;
+    }
+    .pageHeroPath{
+        width: fit-content;
+        transform: translateX(-50%);
+        left: 50%;
+        padding: .5rem 1.5rem;
+    }
+    .servicesMain .box{
+        width: 100%;
+    }
+}
+

@@ -68,7 +68,12 @@ legend{
 .boxIcons svg{
     width: 1rem;
 }
-
+.navOpenBtn svg,.navCloseBtn svg{
+    width: 1.2rem;
+}
+.navOpenBtn path,.navCloseBtn path{
+    fill: #fff;
+}
 
 /*--------- NAV ---------*/
 nav {
@@ -234,12 +239,18 @@ footer>div{
         color: #fff;
     }
     .navOpenBtn{
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
         top: .5rem;
         right: .5rem;
     }
     .navCloseBtn{
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: .8rem;
         border-radius: 0 0 0 .25rem;
     }
     .navList{
@@ -271,8 +282,7 @@ footer>div{
         display: none;
     }
     .homeMain .box {
-        background: #fff;
-        width: 80%;
+        min-width: 65%;
     }
     .whyUsOptions{
         flex-wrap: wrap;
@@ -384,10 +394,13 @@ footer>div{
 }
 @media (min-width:768px) {
     html{
-        font-size: 12.5px;
+        font-size: 13px;
     }
     .c{
         padding: 4rem;
+    }
+    .heroLeft{
+        gap: 1.5rem;
     }
     .mainBoxes{
         gap: 2rem;
@@ -398,6 +411,9 @@ footer>div{
     }
     .c{
         padding: 4rem 5rem;
+    }
+    .boxRooms{
+        font-size: 1rem;
     }
     .ourExperienceLeft{
         padding: 5rem 10rem;
@@ -434,6 +450,9 @@ footer>div{
     }
     footer{
         flex-direction: row;
+    }
+    .boxRooms{
+        font-size: .8rem;
     }
     .footerDesc{
         font-size: 1rem;

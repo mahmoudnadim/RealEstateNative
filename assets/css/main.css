@@ -394,13 +394,18 @@ footer>div{
 }
 @media (min-width:768px) {
     html{
-        font-size: 13px;
+        font-size: 14px;
     }
     .c{
         padding: 4rem;
     }
     .heroLeft{
         gap: 1.5rem;
+        width: 45%;
+    }
+    .heroRight{
+        gap: 1rem;
+        width: 50%;
     }
     .mainBoxes{
         gap: 2rem;
@@ -428,7 +433,9 @@ footer>div{
     .footerLogo{
         width: 8rem;
     }
-    
+    .footerMain{
+        width: 100%;
+    }
     .footerDesc{
         font-size: 1.2rem;
     }
@@ -439,6 +446,12 @@ footer>div{
     }
     .c {
         padding: 4rem 9rem;
+    }
+    .heroLeft {
+        width: 45%;
+    }
+    .heroRight {
+        width: 40%;
     }
     .servicesMain .box {
         background: #fff;
@@ -456,9 +469,6 @@ footer>div{
     }
     .footerDesc{
         font-size: 1rem;
-    }
-    .footerMain{
-        width: calc(40% - 3rem);
     }
     .footerList{
         width: calc(20% - 3rem);

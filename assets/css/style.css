@@ -5,12 +5,13 @@
     width: 45%;
     gap: 3rem;
 }
-.heroText_c{
-    gap: .51rem;
-}
 .heroRight {
     width: 40%;
 }
+.heroText_c{
+    gap: .51rem;
+}
+
 .heroTitle{
     font-size: 3.5rem;
 }

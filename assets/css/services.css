@@ -4,7 +4,7 @@
 /*--------- HERO ---------*/
 .pageHero{
     position: relative;
-    background: linear-gradient(0deg, #00000060, #00000060), url("../images/pageHero.jpg");
+    background: linear-gradient(0deg, #00000060, #00000060), url("../images/pageHero.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

@@ -98,7 +98,7 @@
     border-bottom: 0;
 }
 .ourExperienceLeft fieldset p{
-    font-size: 3rem;
+    font-size: 2.8rem;
     width: fit-content;
     padding-right: 1.5rem;
     font-weight: 500;
@@ -110,5 +110,5 @@
     align-items: center;
 }
 .oe-counts>p span{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }

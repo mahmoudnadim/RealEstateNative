@@ -61,7 +61,12 @@ fieldset{
 legend{
     width: fit-content;
 }
-
+.boxIcons p{
+    gap: .5rem;
+}
+.boxIcons svg{
+    width: 1rem;
+}
 
 
 /*--------- NAV ---------*/
@@ -413,7 +418,7 @@ footer>div{
 }
 @media (min-width:992px) {
     html{
-        font-size: 12px;
+        font-size: 13px;
     }
     .c {
         padding: 4rem 9rem;
